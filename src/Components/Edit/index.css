@@ -1,0 +1,45 @@
+.edit-person-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .edit-person-form input[type="text"],
+  .edit-person-form input[type="number"],
+  .edit-person-form select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .edit-person-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-person-form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .edit-person-form .form-errors {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .edit-person-form input[type="text"],
+    .edit-person-form input[type="number"],
+    .edit-person-form select {
+      width: 100%;
+    }
+  }
+  

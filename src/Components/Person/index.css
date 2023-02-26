@@ -1,0 +1,134 @@
+/* Style the form container */
+form {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 30px;
+
+    width: 641px;
+
+    margin: 20px;
+    padding: 20px;
+}
+
+.form-container {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.field-container {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+/* Style the form header */
+.form-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style the form fields */
+.form-field {
+    width: 100%;
+}
+
+.field {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+
+}
+
+/* Style the form label */
+.form-label {
+
+    font-size: 18px;
+
+
+
+
+}
+
+/* Style the form input */
+.input {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the form submit button */
+.form-submit {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+/* Style the form submit button when hovered over */
+.form-submit:hover {
+    background-color: #3e8e41;
+}
+
+.error {
+    font-size: 14px;
+    color: #f00;
+    background-color: #ffebeb;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 17px;
+}
+
+.sub-button {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 10px 0;
+    padding-left: 20px;
+    position: relative;
+    font-size: 18px;
+    color: #333;
+    transition: color 0.2s ease;
+}
+
+ul li:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+ul li:hover {
+    color: #f00;
+}
+
+ul li:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
